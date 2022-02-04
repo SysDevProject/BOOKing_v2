@@ -1,0 +1,81 @@
+body {
+    font-family: 'Acme', sans-serif;
+    background-color: #F6E4DF;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.leftContainer {
+    position: absolute;
+    top: 42%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px solid #740001;
+    width: 50%;
+    float: left;
+}
+
+#logInButton {
+    width: 18%;
+    background-color: #740001;
+    color: #FFFF;
+    border-radius: 70px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 1%;
+    font-size: 110%;
+    margin-top: 5%;
+}
+
+#logInButton:hover {
+    background-color: #AE0001;
+    cursor: pointer;
+}
+
+#signUpButton {
+    width: 18%;
+    background-color: #740001;
+    color: #FFFF;
+    border-radius: 70px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 1%;
+    font-size: 110%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+#SignUpButton:hover {
+    background-color: #AE0001;
+    cursor: pointer;
+}
+
+.rightContainer {
+    border: 1px solid #740001;
+    float: right;
+    width: 50%;
+    position: absolute;
+    top: 42%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.BottomPortion {
+    font-family: 'Pacifico', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.box3{
+    background: #740001;
+    margin-top: 42%;
+    width: 100vw;
+    height: 8vh;
+    text-align: center;
+    -webkit-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+}
+
